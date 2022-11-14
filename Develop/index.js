@@ -76,16 +76,16 @@ inquirer
     );
   });
 
-// TODO: Create a function to initialize app
-function init() {
-  inquirer.prompt(questions)
-      .then(function(data) {
-          writeToFile('./develop/README.md', markdownGenerator(data));
-          console.log(data)
+// // TODO: Create a function to initialize app
+// function init() {
+//   inquirer.prompt(questions)
+//       .then(function(data) {
+//           writeToFile('./develop/README.md', markdownGenerator(data));
+//           console.log(data)
           
-  })    
-}
+//   })    
+// }
 
-// Function call to initialize app
+// // Function call to initialize app
 // init();
  
