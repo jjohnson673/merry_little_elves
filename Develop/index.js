@@ -5,6 +5,8 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 
+
+
 //const generateMD = ({title, description, installation, usage, contributing, license, test, github, email}) =>
 // TODO: Create an array of questions for user input
 const questions = [];
@@ -19,7 +21,7 @@ inquirer
 
     {
       type: 'input',
-      message: 'Project description',
+      message: 'Project description:',
       name: 'description',
     },
     {
