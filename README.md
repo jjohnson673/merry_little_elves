@@ -44,6 +44,8 @@ To run this application, it would require the installation of `npm init` and `np
 
 When you run `node index.js` on your project, within your command line you will be prompted with a series of questions. Each question represents a different segment of your README.md file. When you finish each prompt, the application will generate markdown each represented segment with your given responses. You are also given a list of commonly used licenses, upon selection of your license, the matching badge will show below to your README.md title.
 
+To view a video on the usage of the application, [click here](https://app.castify.com/view/bc70e9ec-9edb-4aaf-8963-8ebd23418a42)
+
 ## Contributors
 If you would like to contribute, feel free to fork the repo.
 
